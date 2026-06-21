@@ -252,16 +252,6 @@ InfoGroup:AddButton({
 
 local UpdateGroup = Tabs.UpdateLog:AddLeftGroupbox("Latest Updates")
 UpdateGroup:AddLabel("- Release [Beta]", true)
-UpdateGroup:AddLabel("+ Add Info Tab And Update Log Tab", false)
-UpdateGroup:AddLabel("+ In legit Tab add fov colour changer and fill fov", false)
-UpdateGroup:AddLabel("+ Add mouse lock & target part selectors", false)
-UpdateGroup:AddLabel("+ AutoShoot delay & logic heavily improved", false)
-UpdateGroup:AddLabel("+ Mouse lock correctly pauses on UI open", false)
-UpdateGroup:AddLabel("+ Anti-void entirely rebuilt for max safety", false)
-UpdateGroup:AddLabel("+ Third Person reset bug perfectly fixed", false)
-UpdateGroup:AddLabel("+ Native Nametag UI injected into main script", false)
-UpdateGroup:AddLabel("+ Server Hop pulls best populated servers", false)
-UpdateGroup:AddLabel("+ Clean Unload restores full game state", false)
 
 --// ======================================================
 --// FLY LOGIC MANAGER (REWRITTEN: x1000 BETTER)
@@ -576,7 +566,7 @@ PerfGrp:AddButton({
 })
 
 --// MISC TAB (NAMETAG INTEGRATION)
-local NametagGrp = Tabs.Misc:AddLeftGroupbox("Nametag Changer")
+local NametagGrp = Tabs.Misc:AddLeftGroupbox("Nametag Spoofer")
 
 NametagGrp:AddToggle("Toggle_Nametag", { Text = "Enable Custom Nametag", Default = false })
 NametagGrp:AddInput("Input_Nametag", { Default = "[VIP]", Numeric = false, Finished = false, Text = "Tag Text", Placeholder = "Enter Name..." })
