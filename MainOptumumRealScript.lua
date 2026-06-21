@@ -302,7 +302,7 @@ end
 local MovementBox = Tabs.Player:AddLeftGroupbox("Movement")
 local CameraBox = Tabs.Player:AddRightGroupbox("Camera")
 
-MovementBox:AddToggle("Toggle_SpeedHack", { Text = "Speed Hack", Default = false })
+MovementBox:AddToggle("Toggle_SpeedHack", { Text = "WalkSpeed", Default = false })
 Toggles.Toggle_SpeedHack:OnChanged(function()
     SpeedOn = Toggles.Toggle_SpeedHack.Value
     if not SpeedOn and LP.Character and LP.Character:FindFirstChild("Humanoid") then
